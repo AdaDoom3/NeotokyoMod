@@ -17,7 +17,7 @@
 #define TEXT_X_16BY10 22.222
 #define TEXT_Y 9.5
 #define TEXT_SIZE 0.06
-#define TEXT_COLOR_ 0.6,0.6,0.6,1 //Have to have a non-quoted version because the scripting language is shit
+#define TEXT_COLOR_ 0.6,0.6,0.6,1 
 #define TEXT_COLOR "0.6,0.6,0.6,1"
 #define TEXT_16BY9 "fonts/negotiate169"
 #define TEXT_4BY3 "fonts/negotiate"
@@ -54,7 +54,7 @@
 
 #define SLIDER_SHADER "guis/assets/element_slider_control.tga"
 #define SLIDER_COLOR TEXT_COLOR
-#define SLIDER_COLOR_ TEXT_COLOR_ //Non-quoted version, again, blame john carmack
+#define SLIDER_COLOR_ TEXT_COLOR_ 
 #define SLIDER_COLOR_HIGHLIGHT "0.4,0.4,0.4,1"
 #define SLIDER_BACKING_PADDING 5
 #define SLIDER_LENGTH (MENU_BUTTON_WIDTH - BUTTON_COLUMN_SPACING + SLIDER_BACKING_PADDING)
@@ -470,7 +470,7 @@ windowDef desktop{
 // subsystem is examples from the game files and community websites like modwiki.
 //
 // The reason for having to extend out the variables edited (i.e "MMPM0::backColor","MMPM1::foreColor", etc) is that the
-// damn scripting language can't seem to find macro identifiers next to (::) or quotes ("").
+// scripting language can't find macro identifiers next to (::) or quotes ("").
 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   listenMenuDef(LMM,0,1) //listenMenuMain
